@@ -28,7 +28,14 @@ while((jogadas < 9) && (fimJogo ==  false))
     lin = parseInt(prompt(`${jogador} em  [linha]: `));
     col = parseInt(prompt(`${jogador} em [coluna]: `));
 
-    //c
+    if((lin >= 3) || (lin <= 0))
+    {
+        console.log("Linha fora de alcance");
+    }
+    if((col >= 3) || (col <= 0))
+    {
+        console.log("Coluna fora de alcance");
+    }
 }
 
 //d
