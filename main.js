@@ -20,7 +20,10 @@ for(i = 0; i < 3; ++i)
 
 while((jogadas < 9) && (fimJogo ==  false))
 {
-    //b
+    for(i = 0; i < 3; ++i)
+    {
+        console.log(`[${tab[i]}]`);
+    }
 
     lin = parseInt(prompt(`${jogador} em  [linha]: `));
     col = parseInt(prompt(`${jogador} em [coluna]: `));
