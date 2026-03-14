@@ -82,7 +82,10 @@ while((jogadas < 9) && (fimJogo ==  false))
     else jogador = 'x';
 }
 
-//d
+for(j = 0; j < 3; ++j)
+{
+    tab[i][j] = ' ';
+}
 
 if(vencedor == ' ')
 {
